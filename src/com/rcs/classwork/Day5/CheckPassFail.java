@@ -11,11 +11,10 @@ public class CheckPassFail {
         scanner.close();
         if (x >= 50) {
             System.out.println("PASS");
-        } if (x < 50) {
-            System.out.println("FAIL");
         } else {
+            System.out.println("FAIL");
+        }
             System.out.println("DONE");
-                 }
             }
             }
 
