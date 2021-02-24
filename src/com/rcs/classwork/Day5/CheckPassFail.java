@@ -14,8 +14,8 @@ public class CheckPassFail {
         } else {
             System.out.println("FAIL");
         }
-            System.out.println("DONE");
-            }
-        }
+        System.out.println("DONE");
+    }
+}
 
 
