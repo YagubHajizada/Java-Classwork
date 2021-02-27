@@ -16,19 +16,19 @@ public class Calculator {
         scanner.close();
         switch (action) {
             case "+":
-                System.out.println(a + b);
+                System.out.printf("%.2f + %.2f = %.2f", a, b, a + b);
                 break;
             case "-":
-                System.out.println(a - b);
+                System.out.printf("%.2f - %.2f = %.2f", a, b, a - b);
                 break;
             case "/":
-                System.out.println(a / b);
+                System.out.printf("%.2f / %.2f = %.2f", a, b, a / b);
                 break;
             case "*":
-                System.out.println(a * b);
+                System.out.printf("%.2f * %.2f = %.2f", a, b, a * b);
                 break;
             default:
-                System.out.println("END");
+                System.out.println("Error! :");
         }
     }
 }
