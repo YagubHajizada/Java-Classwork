@@ -26,6 +26,7 @@ public class Calculator {
                 break;
             case "*":
                 System.out.println(a * b);
+                break;
             default:
                 System.out.println("END");
         }
