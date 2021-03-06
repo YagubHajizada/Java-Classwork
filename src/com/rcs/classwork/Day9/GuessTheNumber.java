@@ -17,5 +17,3 @@ public class GuessTheNumber {
         System.out.println("Pareizi! Ciparis ir" + number);
     }
 }
-
-
