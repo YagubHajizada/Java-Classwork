@@ -15,15 +15,18 @@ public class Reverse2DArray {
             }
             System.out.println();
         }
-        System.out.println();
-        for (int i = 0; i < array2D[0].length; i++) {
-            int t = array2D[0][i];
-            array2D[0][i] = array2D[array2D.length - 1][i];
-            array2D[array2D.length - 1][i] = t;
+        for (int i = 0; i < array2D.length / 2; i++) {
+            int oppositeIndex = array2D.length - 1 -i;
+            int[] temp = array2D[i];
+            array2D[i] = array2D[oppositeIndex];
+            array2D[oppositeIndex] = temp;
         }
-        for (int i = 0; i < array2D.length; i++) {
-            for (int j = 0; j < array2D[0].length; j++)
-                System.out.printf("%5d", array2D[i][j]);
+        System.out.println();
+
+        for (int[] i : array2D) {
+            for (int j : i) {
+                System.out.printf("%4d ", j);
+            }
             System.out.println();
         }
     }
