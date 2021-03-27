@@ -11,5 +11,7 @@ public class StringTasks {
         String text = read.nextLine();
         read.close();
         System.out.println("Teksta vidu ir: " + StringUtils.getMiddle(text));
+        System.out.println("Teksta reversā veida ir: " + StringUtils.getReverse(text));
+        System.out.println("Palindrome: " + StringUtils.isPalindrome(text));
     }
 }
